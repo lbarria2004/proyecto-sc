@@ -1,0 +1,65 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html, body, [class*="css"]  {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header Styling */
+h1 {
+    color: #1E3A8A; /* Dark Blue */
+    font-weight: 700;
+}
+
+h2, h3 {
+    color: #374151; /* Dark Gray */
+    font-weight: 600;
+}
+
+/* Button Styling */
+.stButton > button {
+    background-color: #2563EB; /* Royal Blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1D4ED8; /* Darker Blue */
+    color: white;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #F8FAFC; /* Light Blue-Gray */
+    border-right: 1px solid #E2E8F0;
+}
+
+/* Card-like containers for metrics */
+div[data-testid="stMetric"] {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #F1F5F9;
+}
+
+/* DataFrame Styling */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Custom Alert Boxes */
+.stAlert {
+    border-radius: 8px;
+}
+
+/* Progress Bar */
+.stProgress > div > div > div > div {
+    background-color: #2563EB;
+}

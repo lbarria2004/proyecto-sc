@@ -1,6 +1,0 @@
-streamlit
-pandas
-pdfplumber
-fpdf2
-google-generativeai
-openpyxl
